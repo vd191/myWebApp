@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "+oWJ7RdokDnzOh8w/nVpBFIgi1LwK3lJMMoXUlFopVVrwqKlhYlo1hS4AKxczIDbnKiW8dgYyGdG3MtZU5ntxA==",
+  "success": true,
+  "projectFilePath": "/Users/vd/Documents/GitHub/myWebApp/myWebApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/vd/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/vd/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.entityframeworkcore/8.0.2/microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.2/microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.2/microsoft.entityframeworkcore.analyzers.8.0.2.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.2/microsoft.entityframeworkcore.relational.8.0.2.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/vd/.nuget/packages/npgsql/8.0.2/npgsql.8.0.2.nupkg.sha512",
+    "/Users/vd/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.2/npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

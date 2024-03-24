@@ -1,0 +1,38 @@
+services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: example
+    volumes:
+      - 'postgres-data:/var/lib/postgresql/data'
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "user@example.com"
+      PGADMIN_DEFAULT_PASSWORD: "supersecret"
+    ports:
+      - "5050:80"
+    depends_on:
+      - db
+    networks:
+      - postgres
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - '8080:8080'
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '5500:8080'
+    depends_on:
+      - db
+volumes:
+  postgres-data: null
+networks:
+  postgres:
